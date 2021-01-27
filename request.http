@@ -1,0 +1,14 @@
+POST localhost:8080/person/boris?q=123
+Content-Type: application/json
+
+{
+  "test": "test message"
+}
+
+###
+
+GET localhost:8080/api/v1
+
+###
+
+GET localhost:8080/api/v1/silent
